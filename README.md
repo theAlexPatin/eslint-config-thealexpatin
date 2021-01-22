@@ -1,4 +1,4 @@
-# `eslint-config-thealexpatin`
+# `eslint-config-thealexpatin` [![](https://badge.fury.io/js/eslint-config-thealexpatin.svg)](https://npmjs.org/package/eslint-config-thealexpatin)
 
 > Alex Patin's preferred [`eslint`](https://eslint.org) configurations
 
