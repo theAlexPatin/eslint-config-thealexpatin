@@ -24,10 +24,10 @@ module.exports = {
       },
     },
   ],
-  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 2021,
-    sourceType: 'module', // Specify it only for TypeScript files
+    parser: 'babel-eslint',
+    sourceType: 'module',
   },
   plugins: [
     'babel',
@@ -37,6 +37,7 @@ module.exports = {
     'only-error',
     'sort-keys-fix',
   ],
+  root: true,
   rules: {
     'comma-dangle': 'off',
     'import/order': [

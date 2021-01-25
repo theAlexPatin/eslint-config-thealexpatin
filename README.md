@@ -56,7 +56,7 @@ module.exports = {
 }
 ```
 
-**Combined**
+**Combine Configs**
 
 ```js
 // .eslintrc.js

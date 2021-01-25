@@ -1,18 +1,17 @@
 module.exports = {
   extends: [
+    './index.js',
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
     'prettier/@typescript-eslint',
     'standard-with-typescript',
   ],
-  overrides: [
-    {
-      files: ['*.ts', '*.tsx', '*.vue', '*.json'], // Your TypeScript files extension
-      parserOptions: {
-        project: ['./tsconfig.json'], // Specify it only for TypeScript files
-      },
-    },
-  ],
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    ecmaVersion: 2021,
+    project: ['./tsconfig.json'],
+    sourceType: 'module',
+  },
   plugins: ['@typescript-eslint'],
   rules: {
     '@typescript-eslint/consistent-type-definitions': 0,
