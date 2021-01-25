@@ -1,19 +1,8 @@
 module.exports = {
-  env: {
-    browser: true,
-    commonjs: true,
-    es2021: true,
-    jest: true,
-    node: true,
-  },
   extends: [
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:jsdoc/recommended',
-    'plugin:prettier/recommended',
-    'prettier',
-    'prettier/babel',
-    'eslint:recommended',
   ],
   overrides: [
     {
@@ -24,20 +13,7 @@ module.exports = {
       },
     },
   ],
-  parserOptions: {
-    ecmaVersion: 2021,
-    parser: 'babel-eslint',
-    sourceType: 'module',
-  },
-  plugins: [
-    'babel',
-    'prettier',
-    'import',
-    'jsdoc',
-    'only-error',
-    'sort-keys-fix',
-  ],
-  root: true,
+  plugins: ['import', 'jsdoc', 'sort-keys-fix'],
   rules: {
     'comma-dangle': 'off',
     'import/order': [
@@ -74,13 +50,6 @@ module.exports = {
       {
         destructuring: 'any',
         ignoreReadBeforeAssign: false,
-      },
-    ],
-    'prettier/prettier': [
-      'error',
-      {
-        semi: false,
-        singleQuote: true,
       },
     ],
   },

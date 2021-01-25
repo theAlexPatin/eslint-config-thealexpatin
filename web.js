@@ -1,5 +1,4 @@
 module.exports = {
-  extends: ['./index.js'],
   plugins: ['xss'],
   rules: {
     'xss/no-location-href-assign': [
