@@ -5,7 +5,9 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
+    'plugin:import/typescript',
   ],
+  ignorePatterns: ['tsconfig.json'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 2020,
@@ -13,4 +15,8 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['prettier'],
+  rules: {
+    '@typescript-eslint/strict-boolean-expressions': 'off',
+    'jsdoc/require-param-type': 'off',
+  },
 }

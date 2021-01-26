@@ -8,12 +8,11 @@ module.exports = {
     {
       files: ['**.js', '**.json', '**.ts', '**.tsx', '**.jsx'],
       rules: {
-        'jsdoc/require-returns': 'off',
         'sort-keys-fix/sort-keys-fix': 'error',
       },
     },
   ],
-  plugins: ['import', 'jsdoc', 'sort-keys-fix'],
+  plugins: ['jsdoc', 'sort-keys-fix'],
   rules: {
     'comma-dangle': 'off',
     'import/order': [
@@ -44,6 +43,7 @@ module.exports = {
         ],
       },
     ],
+    'jsdoc/require-returns': 'off',
     'no-console': 'error',
     'prefer-const': [
       'error',
