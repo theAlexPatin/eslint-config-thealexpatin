@@ -1,11 +1,11 @@
 {
-  "author": "ProfitBoss",
+  "author": "Profitboss",
   "name": "eslint-config-profitboss",
   "version": "0.1.1",
   "bugs": {
     "url": "https://github.com/profitboss/eslint-config-profitboss/issues"
   },
-  "description": "ProfitBoss standard ESLint configurations",
+  "description": "Profitboss standard ESLint configurations",
   "devDependencies": {
     "@tsconfig/node14": "^1.0.0",
     "eslint": "^7.18.0",
