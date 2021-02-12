@@ -1,7 +1,7 @@
 {
   "author": "Profitboss",
   "name": "eslint-config-profitboss",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "bugs": {
     "url": "https://github.com/profitboss/eslint-config-profitboss/issues"
   },
@@ -12,9 +12,6 @@
     "prettier": "^2.2.1",
     "prettier-config-profitboss": "^0.1.1",
     "typescript": "^4.1.3"
-  },
-  "eslintConfig": {
-    "extends": "./es6.js"
   },
   "main": "index.js",
   "dependencies": {
