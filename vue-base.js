@@ -8,6 +8,12 @@ module.exports = {
   ],
   overrides: [
     {
+      files: ['**.js', '**.json', '**.ts'],
+      rules: {
+        'sort-keys-fix/sort-keys-fix': 'error',
+      },
+    },
+    {
       files: ['src/*.vue'],
       rules: {
         'vue/require-name-property': 'error',
