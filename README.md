@@ -30,6 +30,8 @@ module.exports = {
 - `typescript`
 - `react` (for ES6)
 - `react-with-typescript`
+- `react-native` (for ES6)
+- `react-native-with-typescript`
 - `vue` (for ES6)
 - `vue-with-typescript`
 
