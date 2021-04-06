@@ -1,7 +1,7 @@
 {
   "author": "Alex Patin",
   "name": "eslint-config-thealexpatin",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "bugs": {
     "url": "https://github.com/thealexpatin/eslint-config-thealexpatin/issues"
   },
