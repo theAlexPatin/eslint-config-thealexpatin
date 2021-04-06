@@ -8,6 +8,12 @@ module.exports = {
   ],
   overrides: [
     {
+      files: ['**.js', '**.json', '**.ts'],
+      rules: {
+        'sort-keys-fix/sort-keys-fix': 'error',
+      },
+    },
+    {
       files: ['src/*.vue'],
       rules: {
         'vue/require-name-property': 'error',
@@ -34,6 +40,7 @@ module.exports = {
         definedTags: ['vue/component', 'model', 'values', 'slot', 'event'],
       },
     ],
+    'no-console': 'warn',
     'vue/component-definition-name-casing': ['error', 'PascalCase'],
     'vue/component-name-in-template-casing': [
       'error',

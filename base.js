@@ -4,14 +4,6 @@ module.exports = {
     'plugin:import/warnings',
     'plugin:jsdoc/recommended',
   ],
-  overrides: [
-    {
-      files: ['**.js', '**.json', '**.ts', '**.tsx', '**.jsx'],
-      rules: {
-        'sort-keys-fix/sort-keys-fix': 'error',
-      },
-    },
-  ],
   plugins: ['jsdoc', 'sort-keys-fix'],
   rules: {
     'comma-dangle': 'off',

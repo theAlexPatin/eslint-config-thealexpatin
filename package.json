@@ -1,23 +1,23 @@
 {
-  "author": "Alexander Patin",
+  "author": "Profitboss",
+  "name": "eslint-config-profitboss",
+  "version": "0.1.8",
   "bugs": {
-    "url": "https://github.com/theAlexPatin/eslint-config-thealexpatin/issues"
+    "url": "https://github.com/profitboss/eslint-config-profitboss/issues"
   },
-  "description": "Alex Patin's Standard ESLint Configurations",
+  "description": "Profitboss standard ESLint configurations",
   "devDependencies": {
     "@tsconfig/node14": "^1.0.0",
     "eslint": "^7.18.0",
     "prettier": "^2.2.1",
-    "prettier-config-thealexpatin": "^0.1.1",
+    "prettier-config-profitboss": "^0.1.1",
     "typescript": "^4.1.3"
-  },
-  "eslintConfig": {
-    "extends": "./es6.js"
   },
   "main": "index.js",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.14.0",
     "@typescript-eslint/parser": "^4.14.0",
+    "babel-eslint": "^10.1.0",
     "eslint-config-prettier": "^7.2.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-config-standard-with-typescript": "^19.0.1",
@@ -33,20 +33,18 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-sort-keys-fix": "^1.1.1",
     "eslint-plugin-standard": "^5.0.0",
-    "eslint-plugin-vue": "^7.4.1",
+    "eslint-plugin-vue": "^7.0.0-alpha.6",
     "eslint-plugin-vue-scoped-css": "^1.1.0",
     "eslint-plugin-xss": "^0.1.10"
   },
-  "name": "eslint-config-thealexpatin",
-  "homepage": "https://github.com/theAlexPatin/eslint-config-thealexpatin#readme",
+  "homepage": "https://github.com/profboss/eslint-config-profitboss#readme",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/theAlexPatin/eslint-config-thealexpatin.git"
+    "url": "git+ssh://git@github.com/profboss/eslint-config-profitboss.git"
   },
   "keywords": [
     "ESLint"
   ],
-  "version": "0.1.8",
   "license": "MIT",
   "peerDependencies": {
     "eslint": ">= 7.18.0"
