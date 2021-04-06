@@ -1,7 +1,7 @@
 {
   "author": "Profitboss",
   "name": "eslint-config-profitboss",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "bugs": {
     "url": "https://github.com/profitboss/eslint-config-profitboss/issues"
   },
