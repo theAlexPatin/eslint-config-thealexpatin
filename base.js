@@ -36,7 +36,7 @@ module.exports = {
       },
     ],
     'jsdoc/require-returns': 'off',
-    'no-console': 'error',
+    'no-console': 'warn',
     'prefer-const': [
       'error',
       {
