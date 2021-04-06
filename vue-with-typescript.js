@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['./vue-base.js', './typescript.js'],
+  extends: ['./typescript.js', './vue-base.js'],
 }
