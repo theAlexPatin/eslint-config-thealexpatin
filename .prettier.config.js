@@ -1,1 +1,1 @@
-module.exports = require('prettier-config-profitboss')
+module.exports = require('prettier-config-thealexpatin')

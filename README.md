@@ -1,6 +1,6 @@
-# eslint-config-profitboss [![](https://badge.fury.io/js/eslint-config-profitboss.svg)](https://npmjs.org/package/eslint-config-profitboss)
+# eslint-config-thealexpatin[![](https://badge.fury.io/js/eslint-config-thealexpatin.svg)](https://npmjs.org/package/eslint-config-thealexpatin)
 
-> Standard Profitboss [`eslint`](https://eslint.org) configurations
+> My personal ESLint configurations [`eslint`](https://eslint.org) configurations
 
 ## Requirements
 
@@ -11,7 +11,7 @@
 **Install**
 
 ```bash
-$ npm install -D eslint-config-profitboss
+$ npm install -D eslint-config-thealexpatin
 ```
 
 **Create `.eslintrc.js`**
@@ -20,7 +20,7 @@ $ npm install -D eslint-config-profitboss
 // .eslintrc.js
 
 module.exports = {
-  extends: ["profitboss/<extension name>"],
+  extends: ["thealexpatin/<extension name>"],
 };
 ```
 
@@ -41,7 +41,7 @@ module.exports = {
 // .eslintrc.js
 
 module.exports = {
-  extends: ["profitboss/typescript"],
+  extends: ["thealexpatin/typescript"],
 };
 ```
 
@@ -49,6 +49,6 @@ module.exports = {
 // .eslintrc.js
 
 module.exports = {
-  extends: ["profitboss/react-with-typescript"],
+  extends: ["thealexpatin/react-with-typescript"],
 };
 ```
